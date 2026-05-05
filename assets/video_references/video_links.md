@@ -10,7 +10,7 @@ Video Localization QA Pipeline Demo | EN/ES In-Game Capture Review
 
 
 
-YouTube unlisted link: https://www.youtube.com/watch?v=TXeZ4Ft_RLo
+YouTube unlisted link: https://youtu.be/DxZqKpxufRo
 
 
 
