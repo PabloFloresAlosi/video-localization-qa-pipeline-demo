@@ -1,6 +1,6 @@
 # Video Localization QA Pipeline Demo
 
-A small portfolio project demonstrating a video localization QA workflow for game and interactive media content.
+A portfolio project demonstrating a video localization QA workflow for game and interactive media content.
 
 This project focuses on identifying, documenting, and reporting localization issues in a short video demo, using subtitles, QA documentation, a glossary, Python validation scripts, and a structured QA report.
 
@@ -10,14 +10,14 @@ The goal of this project is to simulate a practical localization QA pipeline for
 
 The demo includes:
 
-* EN/ES subtitle files
-* Localization QA checklist
-* Subtitling guidelines
-* Issue severity guide
-* QA workflow documentation
-* Sample QA report in CSV format
-* Python scripts for subtitle validation and QA summary generation
-* Screenshots for visual documentation
+- EN/ES subtitle files
+- Localization QA checklist
+- Subtitling guidelines
+- Issue severity guide
+- QA workflow documentation
+- Sample QA report in CSV format
+- Python scripts for subtitle validation and QA summary generation
+- Screenshots for visual documentation
 
 This project was created as part of my transition into localization QA, audio localization, and technical QA workflows for games.
 
@@ -25,49 +25,49 @@ This project was created as part of my transition into localization QA, audio lo
 
 ### Intro Panel in Unreal
 
-!\[Intro panel in Unreal](images/01\_intro\_panel\_unreal.jpg)
+<img src="images/01_intro_panel_unreal.jpg" alt="Intro panel in Unreal" width="900">
 
 ### Unreal Demo Overview
 
-!\[Project overview in Unreal](images/02\_project\_overview\_unreal.jpg)
+<img src="images/02_project_overview_unreal.jpg" alt="Project overview in Unreal" width="900">
 
 ### Title and Terminology Issues
 
-!\[Title and terminology issues](images/03\_title\_and\_terminology\_issues.jpg)
+<img src="images/03_title_and_terminology_issues.jpg" alt="Title and terminology issues" width="900">
 
 ### Language Switch Feedback Typo
 
-!\[Language switch feedback typo](images/04\_language\_switch\_feedback\_typo.jpg)
+<img src="images/04_language_switch_feedback_typo.jpg" alt="Language switch feedback typo" width="900">
 
 ### Basic Ambience UI Issues
 
-!\[Basic ambience UI issues](images/05\_basic\_ambience\_issues.jpg)
+<img src="images/05_basic_ambience_issues.jpg" alt="Basic ambience UI issues" width="900">
 
 ### QA Report CSV
 
-!\[QA report CSV](images/06\_qa\_report\_csv.png)
+<img src="images/06_qa_report_csv.png" alt="QA report CSV" width="900">
 
 ### Python QA Summary
 
-!\[Python QA summary](images/07\_python\_qa\_summary.png)
+<img src="images/07_python_qa_summary.png" alt="Python QA summary" width="900">
 
 ### Project Structure
 
-!\[Project structure](images/08\_project\_structure.png)
+<img src="images/08_project_structure.png" alt="Project structure" width="900">
 
 ## Key Skills Demonstrated
 
-* Localization QA
-* Subtitle QA
-* EN/ES linguistic review
-* Bug reporting
-* QA documentation
-* Glossary usage
-* Reading speed checks
-* Python scripting for QA support
-* Structured CSV reporting
-* Video review workflow
-* Attention to UI, subtitle, terminology, and consistency issues
+- Localization QA
+- Subtitle QA
+- EN/ES linguistic review
+- Bug reporting
+- QA documentation
+- Glossary usage
+- Reading speed checks
+- Python scripting for QA support
+- Structured CSV reporting
+- Video review workflow
+- Attention to UI, subtitle, terminology, and consistency issues
 
 ## Project Structure
 
@@ -76,32 +76,33 @@ video-localization-qa-pipeline-demo/
 |
 |-- assets/
 |   |-- glossary/
-|   |   |-- glossary\\\\\\\_en\\\\\\\_es.csv
+|   |   |-- glossary_en_es.csv
 |   |
 |   |-- subtitles/
-|   |   |-- video\\\\\\\_qa\\\\\\\_sample\\\\\\\_en.srt
-|   |   |-- video\\\\\\\_qa\\\\\\\_sample\\\\\\\_es.srt
+|   |   |-- video_qa_sample_en.srt
+|   |   |-- video_qa_sample_es.srt
 |   |
-|   |-- video\\\\\\\_references/
-|       |-- video\\\\\\\_links.md
+|   |-- video_references/
+|       |-- video_links.md
 |
 |-- csv/
-|   |-- qa\\\\\\\_report\\\\\\\_sample.csv
+|   |-- qa_report_sample.csv
 |
 |-- docs/
-|   |-- issue\\\\\\\_severity\\\\\\\_guide.md
-|   |-- localization\\\\\\\_qa\\\\\\\_checklist.md
-|   |-- qa\\\\\\\_workflow.md
-|   |-- subtitling\\\\\\\_guidelines.md
-|   |-- video\\\\\\\_qa\\\\\\\_plan.md
-|   |-- video\\\\\\\_script\\\\\\\_and\\\\\\\_issues.md
+|   |-- issue_severity_guide.md
+|   |-- localization_qa_checklist.md
+|   |-- qa_workflow.md
+|   |-- script_test_results.md
+|   |-- subtitling_guidelines.md
+|   |-- video_qa_plan.md
+|   |-- video_script_and_issues.md
 |
 |-- images/
 |
 |-- scripts/
-|   |-- 01\\\\\\\_validate\\\\\\\_srt\\\\\\\_structure.py
-|   |-- 02\\\\\\\_check\\\\\\\_subtitle\\\\\\\_reading\\\\\\\_speed.py
-|   |-- 03\\\\\\\_generate\\\\\\\_qa\\\\\\\_summary.py
+|   |-- 01_validate_srt_structure.py
+|   |-- 02_check_subtitle_reading_speed.py
+|   |-- 03_generate_qa_summary.py
 |
 |-- .gitignore
 |-- README.md
@@ -112,50 +113,50 @@ video-localization-qa-pipeline-demo/
 
 The QA review covers several types of localization and presentation issues:
 
-* Spelling mistakes
-* Typos
-* Terminology inconsistencies
-* Mixed language issues
-* Subtitle/audio mismatch
-* Text overflow
-* UI display problems
-* Reading speed issues
-* Visual consistency issues
-* Naming consistency issues
+- Spelling mistakes
+- Typos
+- Terminology inconsistencies
+- Mixed language issues
+- Subtitle/audio mismatch
+- Text overflow
+- UI display problems
+- Reading speed issues
+- Visual consistency issues
+- Naming consistency issues
 
 ## Example Issues Covered
 
 The sample QA report includes intentional issues such as:
 
-* Incorrect spelling in UI text
-* Mixed English and Spanish UI content
-* Subtitle text overflowing the screen
-* Subtitle/audio mismatch
-* Incorrect terminology
-* Inconsistent button naming
-* Visual inconsistency in UI buttons
-* Long subtitles affecting readability
+- Incorrect spelling in UI text
+- Mixed English and Spanish UI content
+- Subtitle text overflowing the screen
+- Subtitle/audio mismatch
+- Incorrect terminology
+- Inconsistent button naming
+- Visual inconsistency in UI buttons
+- Long subtitles affecting readability
 
 ## Python Scripts
 
 The project includes small Python scripts to support the QA workflow.
 
-### 01\_validate\_srt\_structure.py
+### 01_validate_srt_structure.py
 
 Validates the basic structure of the subtitle files.
 
 It checks:
 
-* Subtitle index format
-* Timecode structure
-* Empty lines
-* General SRT formatting
+- Subtitle index format
+- Timecode structure
+- Empty lines
+- General SRT formatting
 
-### 02\_check\_subtitle\_reading\_speed.py
+### 02_check_subtitle_reading_speed.py
 
 Checks subtitle reading speed and helps identify lines that may be too long or difficult to read comfortably.
 
-### 03\_generate\_qa\_summary.py
+### 03_generate_qa_summary.py
 
 Generates a summary from the QA report CSV file.
 
@@ -182,9 +183,9 @@ srt
 From the project root, run:
 
 ```bash
-python scripts/01\\\\\\\_validate\\\\\\\_srt\\\\\\\_structure.py
-python scripts/02\\\\\\\_check\\\\\\\_subtitle\\\\\\\_reading\\\\\\\_speed.py
-python scripts/03\\\\\\\_generate\\\\\\\_qa\\\\\\\_summary.py
+python scripts/01_validate_srt_structure.py
+python scripts/02_check_subtitle_reading_speed.py
+python scripts/03_generate_qa_summary.py
 ```
 
 ## QA Report
@@ -192,18 +193,18 @@ python scripts/03\\\\\\\_generate\\\\\\\_qa\\\\\\\_summary.py
 The main QA report is located at:
 
 ```text
-csv/qa\\\\\\\_report\\\\\\\_sample.csv
+csv/qa_report_sample.csv
 ```
 
 It contains sample localization issues with fields such as:
 
-* Timecode
-* Category
-* Issue type
-* Severity
-* Current text
-* Expected result
-* Notes
+- Timecode
+- Category
+- Issue type
+- Severity
+- Current text
+- Expected result
+- Notes
 
 ## Video Reference
 
@@ -212,7 +213,7 @@ The edited video file is not included in the repository because of file size and
 Video reference information can be found in:
 
 ```text
-assets/video\\\\\\\_references/video\\\\\\\_links.md
+assets/video_references/video_links.md
 ```
 
 ## Notes
@@ -221,11 +222,11 @@ Large media files and editing project files are excluded from the repository thr
 
 This includes:
 
-* Video files
-* Audio files
-* Filmora project files
-* Render/export folders
-* Temporary files
+- Video files
+- Audio files
+- Filmora project files
+- Render/export folders
+- Temporary files
 
 ## About
 
@@ -234,4 +235,3 @@ Created by Pablo Flores Alosi.
 Portfolio: https://pablofalosi.wixsite.com/home  
 LinkedIn: https://www.linkedin.com/in/pablofloresalosi/  
 GitHub: https://github.com/PabloFloresAlosi
-
