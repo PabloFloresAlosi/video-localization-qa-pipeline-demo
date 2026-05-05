@@ -1,0 +1,9 @@
+1
+00:00:30,000 --> 00:00:33,000
+Hola, ¿cómo estás?
+Bastante bien, tranquilo.
+
+2
+00:00:37,000 --> 00:00:40,000
+¿Por qué esto no funciona?
+Creo que se ha roto otra vez, no sé qué pasa con este sistema ahora mismo.

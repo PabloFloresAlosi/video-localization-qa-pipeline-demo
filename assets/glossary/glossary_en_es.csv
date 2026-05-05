@@ -1,0 +1,18 @@
+Source_Term,Target_Term,Context,Notes
+Language Switching,Cambio de idioma,UI section,Use consistently for the language switching area
+Language Switch Feedback,Confirmación de cambio de idioma,UI section,"Prefer clearer terminology over literal ""feedback"""
+Confirmation Sound,Sonido de confirmación,UI description,"Preferred term instead of ""feedback sound"""
+Localized VO,VO localizada,Demo overview,Use for voice-over localization references
+Wwise Language Settings,Ajustes de idioma de Wwise,Technical UI text,"Preferred wording instead of ""Wwise audio culture"""
+Unreal,Unreal,Engine name,"Do not misspell as ""Unrel"""
+Dialogue Station,Estación de diálogo,Interactive station,Use consistently for dialogue areas
+Greeting,Saludo,Dialogue category,Use noun form for category labels
+Work,Trabajo,Dialogue category,Use noun form for category labels
+Idle,Inactividad,Dialogue category,Use noun form for category labels
+Reaction,Reacción,Dialogue category,Use noun form for category labels
+Complaint,Queja,Dialogue category,"Use noun form; avoid ""Complain"""
+Basic Ambience,Ambiente básico,UI section,Use consistently for ambience controls
+Forest AMB,Ambiente bosque,Button label,Keep naming style consistent
+Room AMB,Ambiente habitación,Button label,Keep naming style consistent
+Street AMB,Ambiente calle,Button label,Keep naming style consistent
+Stop AMB,Detener AMB,Button label,"Preferred consistent naming over ""Stop ambience"""
