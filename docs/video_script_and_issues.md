@@ -1,144 +1,287 @@
-\# Video Script and Intentional QA Issues
+# Video Script and Intentional QA Issues
 
-
-
-\## Project
-
-
+## Project
 
 Video Localization QA Pipeline Demo
 
-
-
-\## Purpose
-
-
+## Purpose
 
 This document maps the final video timeline, subtitles, on-screen text, and intentional QA issues used for the demo.
 
+The goal is to document the intentional localization QA issues included in the video and connect each issue to a clear timecode, expected result, and QA category.
 
+---
 
-The timeline will be completed after the video edit is assembled.
-
-
-
-\---
-
-
-
-\## Video Source
-
-
+## Video Source
 
 Source material:
 
+- Existing Unreal + Wwise Localization Audio Pipeline Demo capture
+- EN/ES dialogue and UI/audio interaction demo
+- Additional subtitle overlays and intentional QA issues added during editing
 
+---
 
-\- Existing Unreal + Wwise Localization Audio Pipeline Demo capture
+## Timeline Review
 
-\- EN/ES dialogue and UI/audio interaction demo
+### 00:07–00:08 — Intro / Title Card
 
-\- Additional subtitle overlays and intentional QA issues added during editing
+**What appears on screen**
 
+- "Localized VO changes globally through Wwise audio culture"
+- "Unrel"
 
+**Intended QA issue**
 
-\---
+- Terminology / clarity issue
+- Typo / spelling issue
 
+**Expected result**
 
+- Use clearer terminology such as "Wwise language settings".
+- Correct "Unrel" to "Unreal".
 
-\## Timeline Review
+**Notes**
 
+The phrase "Wwise audio culture" is unclear in a localization QA context. The typo "Unrel" is visible in a prominent title area.
 
+---
 
-| Timecode In | Timecode Out | Video Section | What appears on screen | Audio / Dialogue | Subtitle Text | Intended QA Issue | Notes |
+### 00:10–00:12 — Language Switching Area
 
-|---|---|---|---|---|---|---|---|
+**What appears on screen**
 
-| 00:00:00 | 00:00:00 | Intro / title card | TBD | TBD | TBD | TBD | TBD |
+- "Language Swiching"
 
-| 00:00:00 | 00:00:00 | In-game capture | TBD | TBD | TBD | TBD | TBD |
+**Intended QA issue**
 
-| 00:00:00 | 00:00:00 | Dialogue sequence | TBD | TBD | TBD | TBD | TBD |
+- Typo / spelling issue
 
-| 00:00:00 | 00:00:00 | UI / static material | TBD | TBD | TBD | TBD | TBD |
+**Expected result**
 
-| 00:00:00 | 00:00:00 | End card / summary | TBD | TBD | TBD | TBD | TBD |
+- "Language Switching"
 
+**Notes**
 
+Visible typo in a main section heading.
 
-\---
+---
 
+### 00:13–00:16 — Start Here Panel
 
+**What appears on screen**
 
-\## Intentional Issue Candidates
+- "Start Here"
+- "Tutorial & Overview"
+- "Explora cada estación"
+- "Listen to localized audio"
+- "Cambiar idioma"
+- "Test UI & ambience sounds"
 
+**Intended QA issue**
 
+- Wrong language / mixed language issue
+- Text overflow / display issue
 
-Use only the issues that make sense once the final video edit is ready.
+**Expected result**
 
+All text should be consistently localized for the selected language and remain fully visible within the UI panel.
 
+**Notes**
 
-| Issue ID | Category | Possible Use | Selected |
+The panel mixes English and Spanish text. The final line also overflows outside the visible panel area.
 
-|---|---|---|---|
+---
 
-| VIDQA\_001 | Subtitle Timing | Subtitle appears too early or too late compared to dialogue/audio | No |
+### 00:20–00:22 — Dialogue Category Label
 
-| VIDQA\_002 | Reading Speed | Subtitle is too long for the time available on screen | No |
+**What appears on screen**
 
-| VIDQA\_003 | Glossary Consistency | Localized term does not follow the glossary | No |
+- "Complain"
 
-| VIDQA\_004 | Typo / Spelling | On-screen localized text contains a typo | No |
+**Intended QA issue**
 
-| VIDQA\_005 | Wrong Language | English text appears in the Spanish localized version | No |
+- Terminology / UI label consistency issue
 
-| VIDQA\_006 | Text Overflow | Localized UI text is too long for the available space | No |
+**Expected result**
 
-| VIDQA\_007 | Display Duration | Static screen appears too briefly for proper review | No |
+- "Complaint"
 
-| VIDQA\_008 | Branding / Terminology | Product/system terminology is inconsistent across screens | No |
+**Notes**
 
-| VIDQA\_009 | Subtitle Formatting | Subtitle uses inconsistent punctuation, casing, or line breaks | No |
+Other category labels use nouns such as "Greeting", "Work", "Reaction", and "Idle". "Complain" is a verb and breaks naming consistency.
 
-| VIDQA\_010 | Audio/Sub Sync | Subtitle timing does not match the spoken line or audio cue | No |
+---
 
+### 00:20–00:23 — Dialogue Subtitle
 
+**Audio / dialogue**
 
-\---
+- Spoken line: "Working on something important."
+- Subtitle: "Working on something very important."
 
+**Intended QA issue**
 
+- Subtitle mismatch / accuracy issue
 
-\## Real Dialogue Lines Used
+**Expected result**
 
+The subtitle should match the spoken dialogue:
 
+- "Working on something important."
 
-Fill this section with the actual lines used in the final edit.
+**Notes**
 
+The subtitle adds the word "very", which is not present in the spoken line.
 
+---
 
-| ID | Language | Character | Category | Line Type | Variation | Actual Line Used | Notes |
+### 00:25–00:28 — Subtitle Punctuation
 
-|---|---|---|---|---|---|---|---|
+**Subtitle text**
 
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+- "You seem distracted.. / Just thinking out loud"
 
+**Intended QA issue**
 
+- Subtitle formatting / punctuation issue
 
-\---
+**Expected result**
 
+- "You seem distracted... / Just thinking out loud."
 
+**Notes**
 
-\## Final Selected Issues
+The ellipsis style is inconsistent and final punctuation is missing.
 
+---
 
+### 00:37–00:40 — Long Spanish Subtitle
 
-Fill this after reviewing the final video.
+**Audio / dialogue**
 
+- Spoken line: "Creo que se ha roto otra vez."
+- Subtitle: "Creo que se ha roto otra vez, no sé qué pasa con este sistema ahora mismo."
 
+**Intended QA issue**
 
-| Issue ID | Timecode In | Timecode Out | Category | Severity | Description | Expected Result | Actual Result |
+- Reading speed / subtitle length issue
+- Subtitle mismatch / accuracy issue
+- Text overflow / display issue
 
-|---|---|---|---|---|---|---|---|
+**Expected result**
 
-| TBD | TBD | TBD | TBD | TBD | TBD | TBD | TBD |
+The subtitle should match the spoken line:
 
+- "Creo que se ha roto otra vez."
+
+**Notes**
+
+The subtitle is significantly longer than the spoken line, exceeds comfortable reading speed, and overflows outside the visible screen area.
+
+---
+
+### 00:44–00:47 — Language Switch Feedback Area
+
+**What appears on screen**
+
+- "LANGUAGE SWICH FEEDBACK"
+- "Select the feedback sound used when switching languaje"
+
+**Intended QA issue**
+
+- Typo / spelling issue
+- Terminology / clarity issue
+
+**Expected result**
+
+- "LANGUAGE SWITCH FEEDBACK"
+- "Select the confirmation sound used when switching language."
+
+**Notes**
+
+"Swich" and "languaje" are spelling mistakes. "Feedback sound" is less clear in this context than "confirmation sound".
+
+---
+
+### 00:48–00:50 — Basic Ambience Area
+
+**What appears on screen**
+
+- "Switch bitween simple background ambience beds"
+
+**Intended QA issue**
+
+- Typo / spelling issue
+
+**Expected result**
+
+- "Switch between simple background ambience beds."
+
+**Notes**
+
+Visible typo in the Basic Ambience description.
+
+---
+
+### 00:58–01:01 — Ambience Button Visual Style
+
+**What appears on screen**
+
+- "Street AMB" button appears yellow while the other ambience buttons use a different style.
+
+**Intended QA issue**
+
+- Display / visual consistency issue
+
+**Expected result**
+
+All ambience buttons should keep the same visual style unless the color indicates a clear documented state.
+
+**Notes**
+
+The yellow button creates visual inconsistency across related UI controls.
+
+---
+
+### 01:02–01:09 — Ambience Button Naming
+
+**What appears on screen**
+
+- "Stop ambience"
+
+**Intended QA issue**
+
+- Naming consistency / UI label consistency issue
+
+**Expected result**
+
+Use one of the following:
+
+- "Stop AMB"
+- Or a standardized naming convention across all ambience buttons.
+
+**Notes**
+
+The other buttons use the "AMB" abbreviation: "Forest AMB", "Room AMB", and "Street AMB". "Stop ambience" breaks the naming pattern.
+
+---
+
+## Final Issue Summary
+
+The video includes intentional localization QA issues across:
+
+- UI spelling
+- Terminology clarity
+- Mixed language text
+- Subtitle mismatch
+- Reading speed
+- Text overflow
+- Visual consistency
+- Naming consistency
+
+These issues are documented in the QA report located at:
+
+```text
+csv/qa_report_sample.csv
+```
